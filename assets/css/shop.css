@@ -1,0 +1,98 @@
+#computop-direct-debit-form label {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 0;
+	font-size:0.8em;
+}
+
+#computop-direct-debit-form input,
+#computop-ideal-form select
+{
+	padding:8px;
+	width:100%;
+	max-width: 300px;
+	display: block;
+}
+
+.computop-credit-card-form {
+	width:600px;
+	max-width:100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	background-color: #f9f9f9;
+}
+
+.computop-credit-card-form *{
+	box-sizing: border-box;
+}
+
+.computop-credit-card-form .form-field {
+	margin-bottom: 15px;
+}
+
+.computop-credit-card-form label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.computop-credit-card-form input[type="text"],
+.computop-credit-card-form select {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.computop-credit-card-form #expiryMonth{
+	width: 80px;
+}
+.computop-credit-card-form #expiryYear{
+	width: 160px;
+}
+
+.computop-credit-card-form button,
+.computop-button{
+	padding: 10px;
+	border: none;
+	border-radius: 4px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 20px;
+	display:inline-block;
+	text-align: center;
+	width:100%;
+}
+
+.computop-credit-card-form button:hover,
+.computop-button:hover{
+	background-color: #0056b3;
+	color:#eee;
+}
+
+.computop-easycredit-decision table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.computop-easycredit-decision table td,
+.computop-easycredit-decision table th{
+	padding: 5px;
+	border: none;
+	text-align: left !important;
+}
+
+.computop-easycredit-decision table .total-line td,
+.computop-easycredit-decision table .total-line th{
+	background: #eee;
+}
+
+#cpt-amazon-pay-button{
+	display:none !important;
+}

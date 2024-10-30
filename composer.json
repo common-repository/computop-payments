@@ -1,0 +1,14 @@
+{
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "phpseclib/phpseclib": "~3.0",
+    "paragonie/constant_time_encoding": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ComputopSdk\\": "vendor/computop-sdk/",
+      "ComputopPayments\\": "includes/"
+    }
+  }
+}

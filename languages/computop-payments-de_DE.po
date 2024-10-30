@@ -1,0 +1,414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Computop Payments\n"
+"POT-Creation-Date: 2024-03-12 21:33+0100\n"
+"PO-Revision-Date: 2024-03-12 21:33+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: computop-payments.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: computop-payments.php:40
+msgid "Computop requires WooCommerce to be installed and active."
+msgstr "Computop setzt voraus, dass WooCommerce installiert und aktiv ist."
+
+#: includes/Controllers/ReturnController.php:138
+msgid "Payment failed"
+msgstr "Zahlung fehlgeschlagen"
+
+#: includes/Gateways/AbstractGateway.php:154
+#, php-format
+msgid "Order authorized by Computop. Transaction ID: %s"
+msgstr "Bestellung von Computop autorisiert. Transaktions-ID: %s"
+
+#: includes/Gateways/AbstractGateway.php:172
+#, php-format
+msgid "Order captured. Transaction ID: %s"
+msgstr "Zahlung eingezogen. Transaktions-ID: %s"
+
+#: includes/Gateways/AbstractGateway.php:318
+msgid ""
+"An error occurred while processing your payment. Please try again or use a "
+"different payment method."
+msgstr ""
+"Fehler beim Verarbeiten der Zahlung. Bitte erneut versuchen oder eine andere "
+"Zahlungsart wählen."
+
+#: includes/Gateways/AmazonPay.php:33
+msgid "Computop Amazon Pay"
+msgstr "Computop Amazon Pay"
+
+#: includes/Gateways/AmazonPay.php:46 includes/Gateways/Card.php:74
+#: includes/Gateways/DirectDebit.php:45 includes/Gateways/EasyCredit.php:55
+#: includes/Gateways/Giropay.php:36 includes/Gateways/Ideal.php:66
+#: includes/Gateways/Klarna.php:39 includes/Gateways/Paypal.php:42
+msgid "Enable/Disable"
+msgstr "Aktivieren/Deaktivieren"
+
+#: includes/Gateways/AmazonPay.php:47
+msgid "Enable Computop Amazon Pay"
+msgstr "Computop Amazon Pay aktivieren"
+
+#: includes/Gateways/AmazonPay.php:53 includes/Gateways/Card.php:81
+#: includes/Gateways/DirectDebit.php:52 includes/Gateways/EasyCredit.php:62
+#: includes/Gateways/Giropay.php:43 includes/Gateways/Ideal.php:75
+#: includes/Gateways/Klarna.php:46 includes/Gateways/Paypal.php:49
+msgid "Title"
+msgstr "Titel"
+
+#: includes/Gateways/AmazonPay.php:55 includes/Gateways/Card.php:83
+#: includes/Gateways/DirectDebit.php:54 includes/Gateways/EasyCredit.php:64
+#: includes/Gateways/Giropay.php:45 includes/Gateways/Ideal.php:77
+#: includes/Gateways/Klarna.php:48 includes/Gateways/Paypal.php:51
+msgid "This controls the title which the user sees during checkout."
+msgstr "Titel, den Benutzer während des Zahlvorgangs sehen."
+
+#: includes/Gateways/AmazonPay.php:56
+msgid "Amazon Pay"
+msgstr ""
+
+#: includes/Gateways/AmazonPay.php:59 includes/Gateways/Card.php:87
+#: includes/Gateways/DirectDebit.php:58 includes/Gateways/EasyCredit.php:68
+#: includes/Gateways/Giropay.php:49 includes/Gateways/Ideal.php:81
+#: includes/Gateways/Klarna.php:52 includes/Gateways/Paypal.php:55
+msgid "Description"
+msgstr "Beschreibung"
+
+#: includes/Gateways/AmazonPay.php:61 includes/Gateways/Card.php:89
+#: includes/Gateways/DirectDebit.php:60 includes/Gateways/EasyCredit.php:70
+#: includes/Gateways/Giropay.php:51 includes/Gateways/Ideal.php:83
+#: includes/Gateways/Klarna.php:54 includes/Gateways/Paypal.php:57
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+"Beschreibungstext, den Benutzer bei der Auswahl dieser Zahlungsart sehen."
+
+#: includes/Gateways/AmazonPay.php:65
+msgid "Amazon Pay Merchant ID"
+msgstr "Amazon Pay Händler ID"
+
+#: includes/Gateways/AmazonPay.php:71
+msgid "Amazon Pay Region"
+msgstr ""
+
+#: includes/Gateways/Card.php:39
+msgid "Computop Credit Card"
+msgstr "Computop Kreditkarte"
+
+#: includes/Gateways/Card.php:75
+msgid "Enable Computop Credit Card"
+msgstr "Computop Kreditkarte aktivieren"
+
+#: includes/Gateways/Card.php:84
+msgid "Credit Card"
+msgstr "Kreditkarte"
+
+#: includes/Gateways/Card.php:93
+msgid "Display Mode"
+msgstr "Darstellungsart"
+
+#: includes/Gateways/Card.php:98
+msgid "Payment Page"
+msgstr "Bezahlungsseite"
+
+#: includes/Gateways/Card.php:99
+msgid "iFrame"
+msgstr "iFrame"
+
+#: includes/Gateways/Card.php:100
+msgid "Silent Mode"
+msgstr "Silent Mode"
+
+#: includes/Gateways/Card.php:104
+msgid "Custom form template"
+msgstr "Template"
+
+#: includes/Gateways/Card.php:106
+msgid "Leave empty for custom template"
+msgstr "Leer lassen für Standard-Template"
+
+#: includes/Gateways/Card.php:110 includes/Gateways/DirectDebit.php:64
+#: includes/Gateways/Paypal.php:61
+msgid "Capture Mode"
+msgstr "Art des Zahlungseinzugs"
+
+#: includes/Gateways/Card.php:115 includes/Gateways/DirectDebit.php:69
+#: includes/Gateways/Paypal.php:66
+msgid "Manual Capture"
+msgstr "manuell"
+
+#: includes/Gateways/Card.php:116 includes/Gateways/DirectDebit.php:70
+#: includes/Gateways/Paypal.php:67
+msgid "Immediate Capture"
+msgstr "automatisch/sofort"
+
+#: includes/Gateways/Card.php:184 includes/Gateways/Card.php:192
+msgid "Credit Card Payment Page"
+msgstr "Kreditkartenzahlung"
+
+#: includes/Gateways/Card.php:279
+msgid "Card brand"
+msgstr "Kartentyp"
+
+#: includes/Gateways/Card.php:287
+msgid "Card holder"
+msgstr "Name des Karteninhabers"
+
+#: includes/Gateways/Card.php:292
+msgid "Card number"
+msgstr "Kartennummer"
+
+#: includes/Gateways/Card.php:297
+msgid "Expiry date"
+msgstr "Ablaufdatum"
+
+#: includes/Gateways/Card.php:319
+msgid "CVV"
+msgstr "Sicherheitscode (CVV)"
+
+#: includes/Gateways/Card.php:324
+msgid "Pay"
+msgstr "Jetzt Bezahlen"
+
+#: includes/Gateways/DirectDebit.php:32
+msgid "Computop Direct Debit"
+msgstr "Computop Lastschrift"
+
+#: includes/Gateways/DirectDebit.php:46
+msgid "Enable Computop Direct Debit"
+msgstr "Computop Lastschrift aktivieren"
+
+#: includes/Gateways/DirectDebit.php:55
+msgid "Direct Debit"
+msgstr "Lastschrift"
+
+#: includes/Gateways/DirectDebit.php:91
+msgid "IBAN"
+msgstr "IBAN"
+
+#: includes/Gateways/DirectDebit.php:95
+msgid "Account Owner"
+msgstr "Kontoinhaber"
+
+#: includes/Gateways/EasyCredit.php:30
+msgid "Computop EasyCredit"
+msgstr "Computop EasyCredit"
+
+#: includes/Gateways/EasyCredit.php:56
+msgid "Enable Computop EasyCredit"
+msgstr "Computop EasyCredit aktivieren"
+
+#: includes/Gateways/EasyCredit.php:65
+msgid "EasyCredit"
+msgstr "EasyCredit"
+
+#: includes/Gateways/EasyCredit.php:142
+msgid "EasyCredit Payment Confirmation"
+msgstr "EasyCredit Zahlungsbestätigung"
+
+#: includes/Gateways/EasyCredit.php:189
+msgid "Your payment plan"
+msgstr "Ratenplan"
+
+#: includes/Gateways/EasyCredit.php:191
+msgid "installments of"
+msgstr "Raten â"
+
+#: includes/Gateways/EasyCredit.php:193
+msgid "Last installment"
+msgstr "Letzte Rate"
+
+#: includes/Gateways/EasyCredit.php:195
+msgid "Pre-contractual information"
+msgstr "Vorvertragliche Informationen"
+
+#: includes/Gateways/EasyCredit.php:197
+msgid "Your order"
+msgstr "Bestellung"
+
+#: includes/Gateways/EasyCredit.php:219
+msgid "Interest"
+msgstr "Zinsen"
+
+#: includes/Gateways/EasyCredit.php:223
+msgid "Total"
+msgstr "Gesamt"
+
+#: includes/Gateways/EasyCredit.php:227
+msgid "Confirm order"
+msgstr "Zahlungspflichtig bestellen"
+
+#: includes/Gateways/Giropay.php:23
+msgid "Computop giropay"
+msgstr "Computop giropay"
+
+#: includes/Gateways/Giropay.php:37
+msgid "Enable Computop giropay"
+msgstr "Computop giropay aktivieren"
+
+#: includes/Gateways/Giropay.php:46
+msgid "giropay"
+msgstr "giropay"
+
+#: includes/Gateways/Ideal.php:26
+msgid "Computop iDEAL"
+msgstr "Computop iDEAL"
+
+#: includes/Gateways/Ideal.php:48
+msgid "Your bank"
+msgstr "Ihre Bank"
+
+#: includes/Gateways/Ideal.php:67
+msgid "Enable Computop iDEAL"
+msgstr "Computop iDEAL aktivieren"
+
+#: includes/Gateways/Ideal.php:70
+msgid "Refresh iDEAL Issuers"
+msgstr "IDEAL-Banken aktualisieren"
+
+#: includes/Gateways/Ideal.php:78
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: includes/Gateways/Ideal.php:87
+msgid "Mode"
+msgstr "Modus"
+
+#: includes/Gateways/Ideal.php:92
+msgid "Direct"
+msgstr "Direkt"
+
+#: includes/Gateways/Ideal.php:93
+msgid "PPRO"
+msgstr ""
+
+#: includes/Gateways/Klarna.php:26
+msgid "Computop Klarna"
+msgstr "Computop Klarna"
+
+#: includes/Gateways/Klarna.php:40
+msgid "Enable Computop Klarna"
+msgstr "Computop Klarna aktivieren"
+
+#: includes/Gateways/Klarna.php:49
+msgid "Klarna"
+msgstr "Klarna"
+
+#: includes/Gateways/Klarna.php:58
+msgid "Account"
+msgstr "Account"
+
+#: includes/Gateways/Klarna.php:61
+#, php-format
+msgid ""
+"In Paygate, several Klarna user names can be stored on one MerchantID and "
+"controlled by the Account parameter. By default, please use the value \"0\"; "
+"if you have several Klarna accounts, please coordinate the values with <a "
+"href=\"%s\">Computop Helpdesk.</a>"
+msgstr ""
+"Im Paygate können mehrere Klarna-Benutzernamen auf einer MerchantID "
+"hinterlegt und durch den Parameter Account angesteuert werden. Standardmäßig "
+"verwenden Sie bitte den Wert \"0\", bei mehreren Klarna-Accounts stimmen Sie "
+"die Werte bitte mit <a href=\"%s\">Computop Helpdesk.</a> ab."
+
+#: includes/Gateways/Paypal.php:29
+#, fuzzy
+#| msgid "Enable Computop PayPal"
+msgid "Computop PayPal"
+msgstr "Computop PayPal"
+
+#: includes/Gateways/Paypal.php:43
+msgid "Enable Computop PayPal"
+msgstr "Computop PayPal aktivieren"
+
+#: includes/Gateways/Paypal.php:52
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/Gateways/Paypal.php:71
+msgid "Allow Express Checkout"
+msgstr "Express Checkout aktivieren"
+
+#: includes/Gateways/Paypal.php:77
+msgid "Express Checkout Client ID"
+msgstr "Express Checkout Client ID"
+
+#: includes/Main.php:145
+msgid "Capture"
+msgstr "Zahlungseinzug"
+
+#: includes/Main.php:156 includes/Main.php:169
+msgid "Ready to Capture"
+msgstr "Authorisiert"
+
+#: includes/Main.php:183
+msgid "Computop settings"
+msgstr "Computop Einstellungen"
+
+#: includes/Main.php:196
+msgid "Merchant ID"
+msgstr "Merchant ID"
+
+#: includes/Main.php:204
+msgid "Encryption Key"
+msgstr "Encryption Key"
+
+#: includes/Main.php:212
+msgid "Hash Key"
+msgstr "Hash Key"
+
+#: includes/Main.php:220
+msgid "Order status for authorized payments"
+msgstr "Auftragsstatus für Aufträge mit autorisierter Zahlung"
+
+#: includes/Main.php:223
+msgid "This status is assigned for orders, that are authorized"
+msgstr "Dieser Status wird für autorisierte Aufträge vergeben"
+
+#: includes/Main.php:224
+msgid "[Use WooC default status]"
+msgstr "[WooC-Standardstatus verwenden]"
+
+#: includes/Main.php:230
+msgid "Order status to trigger capture"
+msgstr "Auftragsstatus zum Auslösen des Zahlungseinzugs"
+
+#: includes/Main.php:233
+msgid ""
+"When this status is assigned to an order and there is a valid authorization, "
+"the capture is triggered"
+msgstr ""
+"Wenn dieser Status einem Auftrag zugewiesen wird und eine gültige "
+"Autorisierung vorliegt, wird der Zahlungseinzug ausgelöst."
+
+#: includes/Main.php:234
+msgid "[do not capture on status changes]"
+msgstr "[nicht bei Statusänderungen einziehen]"
+
+#. Plugin Name of the plugin/theme
+msgid "Computop Payments"
+msgstr "Computop Payments"
+
+#. Description of the plugin/theme
+msgid "Official Computop Plugin"
+msgstr "Das offizielle Computop Plugin"
+
+#. Author of the plugin/theme
+msgid "Computop"
+msgstr "Computop"
+
+#. Author URI of the plugin/theme
+msgid "https://www.computop.com"
+msgstr "https://www.computop.com"
